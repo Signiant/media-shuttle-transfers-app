@@ -26,4 +26,4 @@ export default async function (url, options) {
     } else {
         throw getResponseError(response, responseBody);
     }
-};
+}
